@@ -1,3 +1,4 @@
+# Fullscreen: Full Stack Software Engineer Take Home Test
 
 To test your ability as a full stack Rails engineer, we decided not not give you a problem with Binary Trees, Linked Lists or string manipulation. Instead we'll give you a Rails application that you must create on your own that reflects a real use case. This is not specifically a UI test so the feel free to make the UI's as nice or sparse as you have the time for. This should take you less than 2 hours if you have a reasonable experience with Ruby on Rails.
 

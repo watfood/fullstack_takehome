@@ -37,6 +37,7 @@ cd fullstack_takehome
 bundle install
 bundle install --path vendor/bundle
 bundle exec rake db:migrate db:seed # this could take a minute
+bundle exec rspec spec # To run the test suite
 ```
 
 ## Submitting

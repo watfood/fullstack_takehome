@@ -26,16 +26,22 @@ In the source code we have a Rails application with a seeds.rb file that generat
 - Have you written any Rspec Unit tests for your code? ( Extra Points if you did )
 - You won't necessarily fail if you do not complete this within the time allotted, we are mainly looking for your ability to solve a real world problem in a real amount of time. Take a much or little time as you need, but it shouldn't take you longer than 2 hours.
 
+## Setup
+
+You must first fork and clone this repository to your local environment
+
+To setup the project:
+
+```
+cd fullstack_takehome
+bundle install
+bundle install --path vendor/bundle
+bundle exec rake db:migrate db:seed # this could take a minute
+```
+
 ## Submitting
 
-1. Fork this repository and clone
-2. To setup the project:
-
-    cd fullstack_takehome
-    bundle install
-    bundle install --path vendor/bundle
-    bundle exec rake db:migrate db:seed # this could take a minute
-
-3. Add your code changes and commit
-4. Push to your personal Github account
-5. Create a Pull Request across forks against the master branch
+1. Add your code changes and commit
+2. Push to your personal Github account
+3. Create a Pull Request across forks against the master branch
+4. Email your Fullscreen contact with the link to the pull request

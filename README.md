@@ -5,19 +5,17 @@ In the source code we have a Rails application with a seeds.rb file that generat
 
 ### Goals:
 
-- [ ] Create controllers for Videos and Users
-- [ ] Create actions for index and show for both Videos and Users
-- [ ] Create corresponding routes
-- [ ] Use Model association to link video and users
-- [ ] Create views for index and show for video, user
+- Create controllers for Videos and Users
+- Create actions for index and show for both Videos and Users
+- Create corresponding routes
+- Use Model association to link video and users
+- Create views for index and show for video, user
   - The index page should list ALL of each resource and contain links to the show page for a resource
     - i.e The Users index can have a list of all users and when the user is clicked, the user should be taken to the show page
   - The show page should just show the attributes of a resource
     - This includes showing the Videos associated with the Users and Vice Versa.
     - Hint: You might want to take a look at partials to keep things DRY
-
-
-- [ ] Create a dashboard with a histogram that shows how many users saw each video
+- Create a dashboard with a histogram that shows how many users saw each video
   - Just a table with ( video title, number of users ) is fine
   - Extra points for actually creating a histogram plot.
 
@@ -30,7 +28,14 @@ In the source code we have a Rails application with a seeds.rb file that generat
 
 ## Submitting
 
-1. Fork this repository
-2. Add your code changes and commit
-3. Push to your personal Github account
-4. Create a Pull Request across forks against the master branch
+1. Fork this repository and clone
+2. To setup the project:
+
+    cd fullstack_takehome
+    bundle install
+    bundle install --path vendor/bundle
+    bundle exec rake db:migrate db:seed # this could take a minute
+
+3. Add your code changes and commit
+4. Push to your personal Github account
+5. Create a Pull Request across forks against the master branch

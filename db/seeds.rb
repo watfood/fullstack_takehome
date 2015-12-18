@@ -5,3 +5,18 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+10000.times do
+  User.create( name: FFaker::Name.name )
+end
+
+15.times do
+  Video.create( title: FFaker::HipsterIpsum.words(4).join(' ') )
+end
+videos = Video.all.ids
+
+User.all.each do |u|
+  # watch a few videos
+  videos.sample(3).each do |vid|
+    UserVideo.create(user_id: u.id, video_id: vid)
+  end
+end

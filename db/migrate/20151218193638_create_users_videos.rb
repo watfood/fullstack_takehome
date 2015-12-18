@@ -1,6 +1,6 @@
-class CreateUserVideos < ActiveRecord::Migration
+class CreateUsersVideos < ActiveRecord::Migration
   def change
-    create_table :user_videos do |t|
+    create_table :users_videos do |t|
       t.integer :user_id
       t.integer :video_id
       t.timestamps null: false

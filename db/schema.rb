@@ -13,15 +13,15 @@
 
 ActiveRecord::Schema.define(version: 20151218193638) do
 
-  create_table "user_videos", force: :cascade do |t|
-    t.integer  "user_id"
-    t.integer  "video_id"
+  create_table "users", force: :cascade do |t|
+    t.string   "name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
 
-  create_table "users", force: :cascade do |t|
-    t.string   "name"
+  create_table "users_videos", force: :cascade do |t|
+    t.integer  "user_id"
+    t.integer  "video_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

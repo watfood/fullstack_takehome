@@ -47,3 +47,4 @@ bundle exec rspec spec # To run the test suite
 2. Push to your personal Github account
 3. Create a Pull Request across forks against the master branch
 4. Email your Fullscreen contact with the link to the pull request
+5. Finally push your app to Heroku so we can see it running live.

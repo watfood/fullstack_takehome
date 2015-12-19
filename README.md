@@ -34,11 +34,9 @@ You must first fork and clone this repository to your local environment
 To setup the project:
 
 ```
-cd fullstack_takehome
 bundle install
-bundle install --path vendor/bundle
-bundle exec rake db:migrate db:seed # this could take a minute
-bundle exec rspec spec # To run the test suite
+rake db:setup # this could take a minute
+rspec spec # To run the test suite
 ```
 
 ## Submitting

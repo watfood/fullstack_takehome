@@ -41,8 +41,6 @@ rspec spec # To run the test suite
 
 ## Submitting
 
-1. Add your code changes and commit
-2. Push to your personal Github account
-3. Create a Pull Request across forks against the master branch
-4. Email your Fullscreen contact with the link to the pull request
-5. Finally push your app to Heroku so we can see it running live.
+1. Push your app to Heroku or another similarly free hosting provider so we can see it running live.
+2. Push to your personal Github account and Create a Pull Request across forks against the master branch **OR** create a zip file of your project, including the `.git` directory.
+3. Email your Fullscreen contact with the link to the pull request (or the zip file attached) as well as a link to where your project is hosted.

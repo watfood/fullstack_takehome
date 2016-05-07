@@ -1,4 +1,11 @@
 Rails.application.routes.draw do
+
+    get "/videos" => "videos#index"
+    get "/users" => "users#index"
+    get "videos/:id" => "videoss#show", as: :video
+    get "users/:id" => "users#show", as: :user
+
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
